@@ -31,7 +31,7 @@
     self.maxNum = 10;
     self.photoMaxNum = 9;
     self.videoMaxNum = 1;
-    self.showBottomPhotoDetail = YES;
+    self.showBottomPhotoDetail = NO;
     self.videoMaximumSelectDuration = 3 * 60.f;
     self.videoMinimumSelectDuration = 0.f;
     self.videoMaximumDuration = 60.f;

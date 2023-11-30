@@ -1190,10 +1190,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 36YN45CVLK;
+				DEVELOPMENT_TEAM = S6SPVHLU9G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HXPhotoPickerObjC;
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许此App使用你的相机";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "是否允许此App后台获取定位信息";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允许此App获取定位信息";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否允许此App使用你的麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允许此App访问你的媒体资料库";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1203,7 +1208,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.silence.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hannto.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Example/Example-Bridging-Header.h";
@@ -1221,10 +1226,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 36YN45CVLK;
+				DEVELOPMENT_TEAM = S6SPVHLU9G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HXPhotoPickerObjC;
+				INFOPLIST_KEY_NSCameraUsageDescription = "是否允许此App使用你的相机";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "是否允许此App后台获取定位信息";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "是否允许此App获取定位信息";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "是否允许此App使用你的麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "是否允许此App访问你的媒体资料库";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1234,7 +1244,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.3.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.silence.Example;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hannto.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Example/Example-Bridging-Header.h";
