@@ -166,8 +166,8 @@
 //            //return nil;
 //            return @"Demo1 116 - 120 行注释掉就能选啦~\(≧▽≦)/~";
 //        };
-        _manager.configuration.videoCanEdit = NO;
-        _manager.configuration.photoCanEdit = NO;
+//        _manager.configuration.videoCanEdit = NO;
+//        _manager.configuration.photoCanEdit = NO;
     }
     return _manager;
 }
@@ -344,7 +344,7 @@
     }else {
         self.manager.configuration.navigationTitleColor = nil;
     }
-    self.manager.configuration.hideOriginalBtn = self.hideOriginal.on;
+//    self.manager.configuration.hideOriginalBtn = self.hideOriginal.on;
 //    self.manager.configuration.filtrationICloudAsset = self.icloudSwitch.on;
     self.manager.configuration.photoMaxNum = self.photoText.text.integerValue;
     self.manager.configuration.videoMaxNum = self.videoText.text.integerValue;
@@ -358,8 +358,8 @@
     self.manager.configuration.replaceCameraViewController = self.useCustomCamera.on;
     self.manager.configuration.openCamera = self.addCamera.on;
     self.manager.configuration.albumShowMode = self.albumShowModeSwitch.selectedSegmentIndex;
-    self.manager.configuration.photoCanEdit = self.photoCanEditSwitch.on;
-    self.manager.configuration.videoCanEdit = self.videoCanEditSwitch.on;
+//    self.manager.configuration.photoCanEdit = self.photoCanEditSwitch.on;
+//    self.manager.configuration.videoCanEdit = self.videoCanEditSwitch.on;
     self.manager.configuration.creationDateSort = self.createTimeSortSwitch.on;
     HXWeakSelf
 //    [self hx_presentSelectPhotoControllerWithManager:self.manager delegate:self];
@@ -427,10 +427,10 @@
 }
 - (IBAction)photoCanEditClick:(id)sender {
     UISwitch *sw = (UISwitch *)sender;
-    self.manager.configuration.photoCanEdit = sw.on;
+//    self.manager.configuration.photoCanEdit = sw.on;
 }
 - (IBAction)videoCaneEditClick:(UISwitch *)sender {
-    self.manager.configuration.videoCanEdit = sender.on;
+//    self.manager.configuration.videoCanEdit = sender.on;
 }
 
 - (IBAction)addCamera:(id)sender {

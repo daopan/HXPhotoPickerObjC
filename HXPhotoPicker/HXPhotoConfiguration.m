@@ -20,7 +20,7 @@
     return self;
 }
 
-- (void)setup { 
+- (void)setup {
     self.open3DTouchPreview = YES;
     self.openCamera = YES;
     self.lookLivePhoto = NO;
@@ -46,21 +46,21 @@
     self.popTransitionDuration = 0.35f;
     self.popInteractiveTransitionDuration = 0.45f;
     self.doneBtnShowDetail = YES;
-    self.videoCanEdit = YES;
-    self.photoCanEdit = YES;
+    self.videoCanEdit = NO;
+    self.photoCanEdit = NO;
     self.localFileName = @"HXPhotoPickerModelArray";
     self.languageType = HXPhotoLanguageTypeSys;
     self.popupTableViewCellHeight = 65.f;
     if (HX_IS_IPhoneX_All) {
-//        self.editVideoExportPresetName = AVAssetExportPresetHighestQuality;
+        //        self.editVideoExportPresetName = AVAssetExportPresetHighestQuality;
         self.popupTableViewHeight = 450;
     }else {
-//        self.editVideoExportPresetName = AVAssetExportPresetMediumQuality;
+        //        self.editVideoExportPresetName = AVAssetExportPresetMediumQuality;
         self.popupTableViewHeight = 350;
     }
     self.editVideoExportPreset = HXVideoEditorExportPresetRatio_960x540;
     self.videoQuality = 6;
-    self.popupTableViewHorizontalHeight = 250; 
+    self.popupTableViewHorizontalHeight = 250;
     self.albumShowMode = HXPhotoAlbumShowModePopup;
     
     self.cellDarkSelectTitleColor = [UIColor whiteColor];
@@ -124,6 +124,9 @@
     self.photoListLimitCellTextColor = [UIColor hx_colorWithHexStr:@"#999999"];
     self.photoListLimitCellTextDarkColor = [UIColor hx_colorWithHexStr:@"#ffffff"];
     self.photoListLimitCellTextFont = [UIFont hx_mediumPingFangOfSize:14];
+    self.hideOriginalBtn = YES;
+    self.requestOriginalImage = YES;
+    
 }
 - (void)setLivePhotoAutoPlay:(BOOL)livePhotoAutoPlay {
     _livePhotoAutoPlay = livePhotoAutoPlay;
