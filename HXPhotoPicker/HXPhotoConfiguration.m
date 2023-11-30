@@ -61,7 +61,7 @@
     self.editVideoExportPreset = HXVideoEditorExportPresetRatio_960x540;
     self.videoQuality = 6;
     self.popupTableViewHorizontalHeight = 250; 
-    self.albumShowMode = HXPhotoAlbumShowModeDefault;
+    self.albumShowMode = HXPhotoAlbumShowModePopup;
     
     self.cellDarkSelectTitleColor = [UIColor whiteColor];
     self.cellDarkSelectBgColor = [UIColor colorWithRed:0.15 green:0.15 blue:0.15 alpha:1];

@@ -241,6 +241,8 @@
     }else {
         self.clarityText.text = @"1.4";
     } 
+    
+    self.albumShowModeSwitch.selectedSegmentIndex = 1;
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     [self.view endEditing:YES];
